@@ -1,0 +1,28 @@
+name: dice_roller
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/dice-1.png
+    - assets/dice-2.png
+    - assets/dice-3.png
+    - assets/dice-4.png
+    - assets/dice-5.png
+    - assets/dice-6.png
